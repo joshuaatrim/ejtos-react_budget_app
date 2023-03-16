@@ -1,0 +1,33 @@
+.Currency {
+    background-color: lightgreen;
+    position: relative;
+    min-width: 100px;
+    max-width: 150px;
+    border-color: palegreen;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#curSelect{
+    min-width: 100px;
+    max-width: 150px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    text-align: left;
+    padding-left: 20px;
+    background-color: rgba(0,0,0,0);
+    color: rgba(0,0,0,0);
+    border-style: none;
+
+}
+
+.Currency option{
+    background-color: lightgreen;
+    color: black;
+}
+
+#curLabel{
+    padding-left: 5px;
+    color: white;
+}
